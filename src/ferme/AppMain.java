@@ -9,7 +9,8 @@ import javax.swing.*;
 
 public class AppMain {
     public static void main(String[] args) {
-        Ecrans ecrans = new Ecrans();
+        //Ecrans ecrans = new Ecrans();
+        Fenetre fen = new Fenetre();
     }
 }
 
