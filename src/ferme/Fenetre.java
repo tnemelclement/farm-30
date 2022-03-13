@@ -24,7 +24,7 @@ public class Fenetre extends JFrame {
         init();
 
         add(title, BorderLayout.NORTH);
-        add(accueil, BorderLayout.CENTER);
+        add(utilisateur, BorderLayout.CENTER);
         add(footer, BorderLayout.SOUTH);
 
         //this.setContentPane(container);
@@ -42,5 +42,8 @@ public class Fenetre extends JFrame {
 
         // Footer
         footer = new Footer();
+
+        // Utilisateur
+        utilisateur = new PageUtilisateur();
     }
 }

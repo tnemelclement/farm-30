@@ -59,7 +59,7 @@ class Ecrans extends JFrame {
     class Commander implements ActionListener {
         public void actionPerformed(ActionEvent arg0){
             JFrame jFrame = new JFrame();
-            JOptionPane.showMessageDialog(jFrame, "Article bien commandé !");
+
         }
     }
 

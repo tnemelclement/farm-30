@@ -18,5 +18,7 @@ public class Footer extends JPanel {
         add(userBtn);
         add(homeBtn);
     }
-    
+
+
+
 }
