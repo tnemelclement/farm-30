@@ -47,18 +47,12 @@ class Ecrans extends JFrame {
         capt.setLayout(new GridLayout(2, 2));
         footer.add(new JButton("REFRESH"));
 
-        capteurs.add(new Capteur(1, "Capteur d'humidite", "Dans la ferme", "Permet de connaitre l'humiditéde l'air de la ferme.", "%", 100));
-        capteurs.add(new Capteur(2, "Capteur du silo", "Dans le silo à grain", "Permet de savoir quel est le niveau des grains dans le silo", "%", 100));
-        capteurs.add(new Capteur(2, "Capteur température", "Dans la ferme", "Permet de savoir quelle est la température de la ferme","°C", 40));
-        capteurs.add(new Capteur(2, "Anémomètre", "Sur le toit de la ferme", "Permet de savoir quelle est la vitesse du vent", "m/s", 100));
 
         for (Capteur ca : capteurs) {
             capt.add(new BlocCapt(ca), BorderLayout.CENTER);
         }
 
-        container.add(title, BorderLayout.NORTH);
-        container.add(capt, BorderLayout.CENTER);
-        container.add(footer, BorderLayout.SOUTH);
+
     }
 
 
