@@ -24,7 +24,7 @@ class Ecrans extends JFrame {
 
     public Ecrans() {
         this.setSize(1000, 700);
-        this.setTitle("OSTRICH FARM 3.0");
+        this.setTitle("FARM 3.0");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
@@ -36,7 +36,7 @@ class Ecrans extends JFrame {
     }
 
     private void initComposant(){
-        title = new JLabel("OSTRICH FARM 3.0"); // Affiche le titre.
+        title = new JLabel("FARM 3.0"); // Affiche le titre.
         title.setFont(new Font("Arial", Font.BOLD, 50));
         title.setForeground(Color.black);
 
